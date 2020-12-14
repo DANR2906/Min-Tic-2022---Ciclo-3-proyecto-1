@@ -8,7 +8,6 @@ class TransactionInDB(BaseModel):
     value: int
     actual_balance: int
 
-
 database_transactions = []
 generator = {"id":0}
 
